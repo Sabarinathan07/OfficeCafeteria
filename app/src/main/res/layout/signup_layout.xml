@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_firstName"
+        android:layout_alignStart="@+id/et_firstName"
+        android:text="@string/first_name"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+
+
+    <EditText
+        android:id="@+id/et_firstName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_firstName"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_lastName"
+        android:layout_alignStart="@+id/et_lastName"
+        android:text="@string/last_name"
+        android:layout_below="@+id/et_firstName"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/et_lastName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_lastName"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        />
+
+    <TextView
+        android:id="@+id/tv_organisationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_organisationName"
+        android:layout_alignStart="@+id/et_organisationName"
+        android:text="@string/Organisation_Name"
+        android:layout_below="@+id/et_lastName"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/et_organisationName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_organisationName"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_employeeIdNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_employeeIdNo"
+        android:layout_alignStart="@+id/et_employeeIdNo"
+        android:text="@string/Employee_id_no"
+        android:layout_below="@+id/et_organisationName"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/et_employeeIdNo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_employeeIdNo"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        />
+
+    <TextView
+        android:id="@+id/tv_mobileNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_mobileNo"
+        android:layout_alignStart="@+id/et_mobileNo"
+        android:text="@string/mobile_no"
+        android:layout_below="@+id/et_employeeIdNo"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/et_mobileNo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_mobileNo"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_email"
+        android:layout_alignStart="@+id/et_email"
+        android:text="@string/Employee_id_no"
+        android:layout_below="@+id/et_mobileNo"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_email"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        />
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_password"
+        android:layout_alignStart="@+id/et_password"
+        android:text="@string/string_password"
+        android:layout_below="@+id/et_email"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_password"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        />
+
+    <TextView
+        android:id="@+id/tv_conform_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_conform_password"
+        android:layout_alignStart="@+id/et_conform_password"
+        android:text="@string/confirm_password"
+        android:layout_below="@+id/et_password"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/et_conform_password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_conform_password"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        />
+
+
+
+
+
+
+        <Button
+        android:id="@+id/bt_signUp"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/et_conform_password"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bt_layout"
+        android:text="@string/string_sign_up"
+        android:textColor="@color/white"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bt_signUp"
+        android:layout_marginTop="40dp"
+        android:text="@string/not_have_any_acc"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>
