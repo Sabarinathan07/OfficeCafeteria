@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+
     <TextView
         android:id="@+id/tv_firstName"
         android:layout_width="wrap_content"
@@ -16,15 +17,16 @@
         android:typeface="serif"/>
 
 
-
     <EditText
         android:id="@+id/et_firstName"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/tv_firstName"
+        android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
+        android:theme="@style/MyEditTextTheme"
+
         />
 
 
@@ -49,7 +51,9 @@
         android:layout_below="@+id/tv_lastName"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textVisiblePassword"
+        android:inputType="textPersonName"
+        android:theme="@style/MyEditTextTheme"
+
         />
 
     <TextView
@@ -73,8 +77,9 @@
         android:layout_below="@+id/tv_organisationName"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textVisiblePassword"
-        />
+        android:inputType="text"
+
+        android:theme="@style/MyEditTextTheme" />
 
 
     <TextView
@@ -98,7 +103,9 @@
         android:layout_below="@+id/tv_employeeIdNo"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textVisiblePassword"
+        android:inputType="text"
+        android:theme="@style/MyEditTextTheme"
+
         />
 
     <TextView
@@ -122,7 +129,9 @@
         android:layout_below="@+id/tv_mobileNo"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textVisiblePassword"
+        android:inputType="phone"
+        android:theme="@style/MyEditTextTheme"
+
         />
 
 
@@ -130,15 +139,15 @@
         android:id="@+id/tv_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/et_email"
-        android:layout_alignStart="@+id/et_email"
-        android:text="@string/Employee_id_no"
         android:layout_below="@+id/et_mobileNo"
+        android:layout_alignStart="@+id/et_email"
+        android:layout_alignLeft="@+id/et_email"
         android:layout_marginTop="30dp"
+        android:text="@string/email"
         android:textColor="@color/black"
         android:textSize="17sp"
         android:textStyle="bold"
-        android:typeface="serif"/>
+        android:typeface="serif" />
 
     <EditText
         android:id="@+id/et_email"
@@ -147,7 +156,9 @@
         android:layout_below="@+id/tv_email"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textVisiblePassword"
+        android:inputType="textWebEmailAddress"
+        android:theme="@style/MyEditTextTheme"
+
         />
 
     <TextView
@@ -171,7 +182,9 @@
         android:layout_below="@+id/tv_password"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textVisiblePassword"
+        android:inputType="textPassword"
+        android:theme="@style/MyEditTextTheme"
+
         />
 
     <TextView
@@ -195,7 +208,9 @@
         android:layout_below="@+id/tv_conform_password"
         android:layout_centerHorizontal="true"
         android:ems="10"
-        android:inputType="textVisiblePassword"
+        android:inputType="textPassword"
+        android:theme="@style/MyEditTextTheme"
+
         />
 
 
@@ -218,16 +233,19 @@
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/already_hav_acc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/bt_signUp"
         android:layout_marginTop="40dp"
-        android:text="@string/not_have_any_acc"
+        android:text="@string/already_have_any_acc"
         android:textSize="20sp"
         android:typeface="serif"
         android:textColor="@color/black"
         android:textStyle="bold"
+        android:theme="@style/MyEditTextTheme"
+
         />
 
 

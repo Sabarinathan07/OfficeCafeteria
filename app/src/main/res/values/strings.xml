@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">OfficeCafeteria</string>
     <string name="title_activity_office_cafeteria_bottom_nav">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_cafeteria">Cafeteria</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_account">Account</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="string_email">Email</string>
     <string name="string_password">Password</string>
@@ -20,8 +20,8 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="email_hint">example@abc.com</string>
     <string name="password_hint">At least 8 characters</string>
-    <string name="not_have_any_acc">Don\'t have any account? Sign Up</string>
-    <string name="already_have_any_acc">Already  have any account? Sign Up</string>
+    <string name="not_have_any_acc">Don\'t have any account? <u>Sign Up</u></string>
+    <string name="already_have_any_acc">Already  have any account? <u>Login</u></string>
     <string name="first_name">First Name</string>
     <string name="last_name">Last Name</string>
     <string name="Organisation_Name">Organisation Name</string>
