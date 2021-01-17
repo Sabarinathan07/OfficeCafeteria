@@ -28,6 +28,17 @@
     <string name="Employee_id_no">Employee ID No</string>
     <string name="mobile_no">Mobile No</string>
     <string name="email">E-Mail</string>
+    <string name="office_cafeteria">Office Cafeteria</string>
+    <string name="categories">Categories : </string>
+    <string name="coffee">Coffee</string>
+    <string name="wraps">Wraps</string>
+    <string name="fresh_juices">Juice</string>
+    <string name="pizza">Pizza</string>
+    <string name="sandwich">Sandwich</string>
+    <string name="burger">Burger</string>
+    <string name="soup">Soup</string>
+    <string name="salads">Salads</string>
     <string name="ss">ss</string>
+
 
 </resources>
